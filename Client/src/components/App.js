@@ -41,7 +41,7 @@ handleSelect = (selectedTab) => {
      });
   }
 getData(ev, day, time){
-    axios.get('https://nanny-app-test.herokuapp.com/'+day+'/All')
+    axios.get('https://nanny-app-test.herokuapp.com/nannyApp'+day+'/All')
       .then(function(response) {
         console.log(response.data);
         ev.setState({data: response.data});
