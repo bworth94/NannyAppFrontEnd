@@ -1,0 +1,88 @@
+.button-col {
+  width:100px;
+  text-align:center;
+}
+.desc-col {
+width:300px;
+text-align:left;
+}
+.notes-col {
+  width:300px;
+  text-align:left;
+  }
+table {
+  counter-reset: tableCount;
+}
+.counterCell:before {
+  content: counter(tableCount);
+  counter-increment: tableCount;
+}
+.counterCell {
+text-align: center;
+width:50px;
+}
+.button-center {
+text-align: center;
+}
+.Modal {
+ position: relative;
+ top: 250px;
+ left: 400px;
+ right: 20px;
+ bottom: 20px;
+ background-color: #F5F5F5;
+ width:500px;
+ border: 1px solid #000;
+ border-radius: 4px;
+ padding: 20px;
+}
+
+.button-center {
+text-align: center;
+}
+label{
+display:inline-block;
+width:200px;
+margin-right:30px;
+text-align:right;
+}
+fieldset{
+border:none;
+margin:0px auto;
+}
+.closebtn{
+ float:right;
+}
+.infoTable{
+  margin-left:10px;
+  margin-top: 10px;
+  margin-bottom:15px;
+}
+.everything{
+  margin: 25px;
+}
+img{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+.day{
+  color: red;
+}
+.tabs{
+  color: red;
+}
+.addButton{
+  margin-left: 10px;
+}
+.addButtonBackground{
+  color: #ff4747;
+}
+eventKey{
+  color: black;
+}
+.logo{
+    width: 65%;
+    height: auto;
+}
+
