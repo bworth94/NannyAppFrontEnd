@@ -30,7 +30,7 @@ onClick(){
     }
 delete(e){
   console.log(e.state.id);
-    axios.delete('https://nanny-app-test.herokuapp.com/nannyApp',{
+    axios.delete('https://nanny-app-test.herokuapp.com/nannyApp/',{
         params: { id: e.state.id }
       })
       .then(function(response){

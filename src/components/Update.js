@@ -88,7 +88,7 @@ update(e) {
       day: e.state.day
     }
 
-    axios.post('https://nanny-app-test.herokuapp.com/nannyApp',nannyApp).then(function(response) {
+    axios.post('https://nanny-app-test.herokuapp.com/nannyApp/',nannyApp).then(function(response) {
       e.setState({
         messageFromServer: response.data
       });
